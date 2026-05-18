@@ -7,11 +7,7 @@ This dataset is an official extension of the **MISTT Dataset** originally introd
 
 ### 📌 Dataset Description
 
-This repository provides an extended video database built upon the foundations of the MISTT project. It incorporates a wider variety of world-class table tennis matches (including WTT Smashes, ITTF World Championships, and the Tokyo Olympics) to further support advanced research in **Multi-modal Action Recognition**, **Stroke Type Classification**, and **Player Pose Estimation**.
-
-*   **Annotation Consistency:** All frame-level annotations, action boundaries, and time labels within this extended version are accurately synchronized and extracted based on the specific **Annotation FPS** designated for each video.
-*   **Purpose:** Videos flagged or structured here are tailored for fine-grained sports analytics, trajectory tracking, and model training/validation.
-
+This repository provides an extended video database built upon the foundations of the MISTT project. It incorporates a wider variety of world-class table tennis matches (including WTT Smashes, ITTF World Championships, and the Tokyo Olympics).
 
 ## Table Tennis Match Video
 
