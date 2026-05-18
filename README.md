@@ -36,7 +36,6 @@ The structure of each annotation entry contains the following root keys:
       {"name": "旋轉", "type": "旋轉", "value": "上旋"},
       {"name": "選手", "type": "選手", "value": "gkLqz2MnjW"}
     ],
-    "firebaseKey": "-NFHNBxsTv-VCOPkGfT9"
   },
   {
     "index": 1,
@@ -48,7 +47,6 @@ The structure of each annotation entry contains the following root keys:
       {"name": "選手", "type": "選手", "value": "gkLqz2MnjW"},
       {"name": "板數", "type": "板數", "value": 1}
     ],
-    "firebaseKey": "-NO0DQUR2BMxIbg8_81g"
   },
   {
     "index": 2,
@@ -61,7 +59,6 @@ The structure of each annotation entry contains the following root keys:
       {"name": "選手", "type": "選手", "value": "qSLqFtDQf8"},
       {"name": "板數", "type": "板數", "value": 2}
     ],
-    "firebaseKey": "-NFHNJq4arPiEwIlH-wi"
   }
 ]
 
