@@ -29,3 +29,18 @@
 | 25 | 2022世界桌球團體錦標賽-成年男子組, 王楚欽 VS 張本智和 | eXZe1cgNmk | [YouTube](https://www.youtube.com/watch?v=BGBp3eUYdc4) | 30 fps |
 | 26 | 2022Singapore Smash-成年男子組, 馬龍 VS 王楚欽 | Lu9I2SrfHe | [YouTube](https://www.youtube.com/watch?v=asj-b47Bc-c) | 25 fps |
 | 27 | 2022WTT Cup Finals XinXiang-成年女子組, 王曼昱 VS 陳夢 | aNgTF2Dol5 | [YouTube](https://www.youtube.com/watch?v=6dgbQQMChCg) | 30 fps |
+
+
+# Table Tennis Match Video Dataset (Extended Version)
+
+This dataset is an official extension of the **MISTT Dataset** originally introduced in the paper:  
+👉 **[MISTT: A Multi-Modal and Multi-View Dataset for Table Tennis Stroke Analysis](https://dl.acm.org/doi/10.1145/3769299)** (ACM Digital Library).
+
+---
+
+### 📌 Dataset Description
+
+This repository provides an extended video database built upon the foundations of the MISTT project. It incorporates a wider variety of world-class table tennis matches (including WTT Smashes, ITTF World Championships, and the Tokyo Olympics) to further support advanced research in **Multi-modal Action Recognition**, **Stroke Type Classification**, and **Player Pose Estimation**.
+
+*   **Annotation Consistency:** All frame-level annotations, action boundaries, and time labels within this extended version are accurately synchronized and extracted based on the specific **Annotation FPS** designated for each video.
+*   **Purpose:** Videos flagged or structured here are tailored for fine-grained sports analytics, trajectory tracking, and model training/validation.
