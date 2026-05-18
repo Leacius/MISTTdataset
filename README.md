@@ -61,6 +61,7 @@ The structure of each annotation entry contains the following root keys:
     ],
   }
 ]
+```
 
 ## Table Tennis Match Video
 
