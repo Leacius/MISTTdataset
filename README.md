@@ -1,11 +1,11 @@
 # Table Tennis Match Video Dataset
 
 This dataset is an official extension of the **MISTT Dataset** originally introduced in the paper:  
-👉 **[Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT](https://dl.acm.org/doi/10.1145/3769299)** (ACM TOMM 2024).
+**[Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT](https://dl.acm.org/doi/10.1145/3769299)** (ACM TOMM 2024).
 
 ---
 
-### 📌 Dataset Description
+### Dataset Description
 
 This repository provides an extended video database built upon the foundations of the MISTT project. It incorporates a wider variety of world-class table tennis matches (including WTT Smashes, ITTF World Championships, and the Tokyo Olympics).
 
