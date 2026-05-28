@@ -12,74 +12,16 @@ This repository provides an extended video database built upon the foundations o
 The structure of each annotation entry contains the following root keys:
 
 * `index`: The sequential identification number of the annotation entry (starting from `0`).
-* `eventType`: The category of the annotated event (`發球`, `落點`, `動作`, `得分`, `贏局`).
+* `eventType`: The category of the annotated event (`發球`, `動作`).
 * `startFrame`: The exact starting frame of the event, synchronized according to the specific **Annotation FPS** of the video.
 * `duration`: The total number of frames the event lasts.
 * `labels`: A list of detailed attribute key-value pairs (`name`, `type`, `value`) describing the event:
-    * **For Serves (`發球`):** Includes `正反手` (拍面), `站位` (站位), `拋球高度` (拋球), `旋轉` (旋轉), and `選手` (選手).
-    * **For Strokes/Actions (`動作`):** Includes `擊球拍面` (拍面), `動作` (動作, e.g., 拉(下旋), 撥球(挑球)/擰拉, 反拉), `選手` (選手), and `板數` (板數).
-    * **For Ball Placement (`落點`):** Includes `落點` (落點), `選手` (選手), and `板數` (板數).
-    * **For Scores (`現在比分`):** Includes `現在比分` (比分) containing nested scores for `team1` and `team2`.
-
-#### Real JSON Example Snippet
-```json
-[
-  {
-    "index": 0,
-    "eventType": "發球",
-    "startFrame": 0,
-    "duration": 101,
-    "labels": [
-      {"name": "正反手", "type": "拍面", "value": "正"},
-      {"name": "站位", "type": "站位", "value": "反手位"},
-      {"name": "拋球高度", "type": "拋球", "value": "中"},
-      {"name": "旋轉", "type": "旋轉", "value": "上旋"},
-      {"name": "選手", "type": "選手", "value": "gkLqz2MnjW"}
-    ],
-  },
-  {
-    "index": 1,
-    "eventType": "落點",
-    "startFrame": 5,
-    "duration": 10,
-    "labels": [
-      {"name": "落點", "type": "落點"},
-      {"name": "選手", "type": "選手", "value": "gkLqz2MnjW"},
-      {"name": "板數", "type": "板數", "value": 1}
-    ],
-  },
-  {
-    "index": 2,
-    "eventType": "動作",
-    "startFrame": 92,
-    "duration": 26,
-    "labels": [
-      {"name": "擊球拍面", "type": "拍面", "value": "正"},
-      {"name": "動作", "type": "動作", "value": "撥球(挑球)/擰拉"},
-      {"name": "選手", "type": "選手", "value": "qSLqFtDQf8"},
-      {"name": "板數", "type": "板數", "value": 2}
-    ],
-  }
-]
-```
+    * **For Serves (`發球`):** Includes `正反手` (拍面).
+    * **For Strokes/Actions (`動作`):** Includes `擊球拍面` (拍面), `動作` (動作, e.g., 拉(下旋), 撥球(挑球)/擰拉, 反拉).
 
 ## Dataset Format & Specification
 
 This repository provides automated stroke and rally annotations for table tennis videos. The tracking and recognition logs are structured as sequential action events.
-
-### Data Schema (欄位定義)
-
-| Column Name | Data Type | Description | 欄位說明 |
-| :--- | :---: | :--- | :--- |
-| `Player` | `string` | The active player executing the action (`L` for Left, `R` for Right). | 擊球球員（L: 左側, R: 右側） |
-| `EventType` | `string` | Categorization of the event (`發球` for Serve, `動作` for Rally Stroke). | 欄位類別（發球 或 一般擊球動作） |
-| `Forehand_Backhand` | `string` | Grip/Paddle side used for the stroke (`正` for Forehand, `反` for Backhand). | 正手拍 或 反手拍 |
-| `ActionType` | `string` | Specific technical stroke class (e.g., Serve, Loop, Counter-Loop, Flick). | 具體桌球技術動作類型 |
-| `StartFrame` | `integer` | The starting video frame index of the detected action. | 動作起始幀振號 |
-| `Duration` | `integer` | Total number of frames the action lasts. | 動作持續影格數（幀數） |
-| `Index` | `integer` | Global sequential index of the event within the rally/match tracking file. | 該場球賽/該分球中的全局事件順序索引 |
-
----
 
 ### Action Type Mapping Reference (動作術語中英對照)
 
