@@ -92,16 +92,25 @@ To facilitate cross-domain research, the table tennis technical terms used in `A
 
 ---
 
-### Data Examples
+## Dataset Examples & Label Format
 
-#### 1. txt Format
+To help researchers quickly understand our data structure, below is a real snippet from our annotation label files (e.g., `{match}_data.txt`). 
 
-```txt
-Player,EventType,Forehand_Backhand,ActionType,StartFrame,Duration,Index
-L,發球,正,發球,39,59,0
-R,動作,反,撥球(挑球)/擰拉,88,22,2
-L,動作,正,拉(上旋),98,22,4
-R,動作,反,反拉,109,20,6
+### Label File Preview 
+
+```text
+Player   EventType 正/反拍     動作類型        StartFrame   Duration Index   
+---------------------------------------------------------------------------
+L        發球       正        發球           39           59       0       
+R        動作       反        撥球(挑球)/擰拉    88           22       2       
+L        動作       正        拉(上旋)        98           22       4       
+R        動作       反        反拉           109          20       6       
+L        動作       正        拉(上旋)        119          22       8       
+R        動作       反        攻             128          24       10      
+L        動作       反        反拉           141          23       12      
+R        動作       反        反拉           151          22       14      
+L        動作       反        反拉           164          19       16      
+...
 
 ## Table Tennis Match Video
 
