@@ -63,6 +63,46 @@ The structure of each annotation entry contains the following root keys:
 ]
 ```
 
+## Dataset Format & Specification
+
+This repository provides automated stroke and rally annotations for table tennis videos. The tracking and recognition logs are structured as sequential action events.
+
+### Data Schema (欄位定義)
+
+| Column Name | Data Type | Description | 欄位說明 |
+| :--- | :---: | :--- | :--- |
+| `Player` | `string` | The active player executing the action (`L` for Left, `R` for Right). | 擊球球員（L: 左側, R: 右側） |
+| `EventType` | `string` | Categorization of the event (`發球` for Serve, `動作` for Rally Stroke). | 欄位類別（發球 或 一般擊球動作） |
+| `Forehand_Backhand` | `string` | Grip/Paddle side used for the stroke (`正` for Forehand, `反` for Backhand). | 正手拍 或 反手拍 |
+| `ActionType` | `string` | Specific technical stroke class (e.g., Serve, Loop, Counter-Loop, Flick). | 具體桌球技術動作類型 |
+| `StartFrame` | `integer` | The starting video frame index of the detected action. | 動作起始幀振號 |
+| `Duration` | `integer` | Total number of frames the action lasts. | 動作持續影格數（幀數） |
+| `Index` | `integer` | Global sequential index of the event within the rally/match tracking file. | 該場球賽/該分球中的全局事件順序索引 |
+
+---
+
+### Action Type Mapping Reference (動作術語中英對照)
+
+To facilitate cross-domain research, the table tennis technical terms used in `ActionType` correspond to the following international standards:
+* **發球 (Serve)**: Service phase.
+* **撥球/挑球/擰拉 (Flick/Chiquita)**: Active over-the-table backhand/forehand wrist flicks.
+* **拉(上旋) (Topspin Loop)**: Offensive topspin drive against various spins.
+* **反拉 (Counter-Loop)**: Loop-to-loop rallies from mid-to-far distance.
+* **攻 (Attack/Drive)**: Smash or fast active drive.
+
+---
+
+### Data Examples
+
+#### 1. txt Format
+
+```txt
+Player,EventType,Forehand_Backhand,ActionType,StartFrame,Duration,Index
+L,發球,正,發球,39,59,0
+R,動作,反,撥球(挑球)/擰拉,88,22,2
+L,動作,正,拉(上旋),98,22,4
+R,動作,反,反拉,109,20,6
+
 ## Table Tennis Match Video
 
 | Index | Match | Video ID | YouTube Link | Annotation FPS |
