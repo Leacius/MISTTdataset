@@ -86,9 +86,9 @@ This repository provides automated stroke and rally annotations for table tennis
 To facilitate cross-domain research, the table tennis technical terms used in `ActionType` correspond to the following international standards:
 * **發球 (Serve)**: Service phase.
 * **撥球/挑球/擰拉 (Flick/Chiquita)**: Active over-the-table backhand/forehand wrist flicks.
-* **拉(上旋) (Topspin Loop)**: Offensive topspin drive against various spins.
-* **反拉 (Counter-Loop)**: Loop-to-loop rallies from mid-to-far distance.
-* **攻 (Attack/Drive)**: Smash or fast active drive.
+* **拉(上旋) (Spin)**: Offensive topspin drive against various spins.
+* **反拉 (Conterdrive)**: Loop-to-loop rallies from mid-to-far distance.
+* **攻 (Attack)**: Smash or fast active drive.
 
 ---
 
@@ -110,7 +110,7 @@ R        動作       反        攻             128          24       10
 L        動作       反        反拉           141          23       12      
 R        動作       反        反拉           151          22       14      
 L        動作       反        反拉           164          19       16      
-...
+```
 
 ## Table Tennis Match Video
 
