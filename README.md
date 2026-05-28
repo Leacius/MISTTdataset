@@ -68,7 +68,6 @@ L        動作       反        反拉           164          19       16
 | 8 | 2022WTT冠軍賽布達佩斯站-成年男子組, 馬龍 VS Patrick Franziska | dhqtw1pGe1 | [YouTube](https://www.youtube.com/watch?v=mos4Y7y7C_U) | 25 fps |
 | 9 | 2021世界桌球錦標賽-成年男子組, 樊振東 VS 林高遠 | Da3eHy0HU2 | [YouTube](https://www.youtube.com/watch?v=ktGt8O0L3EU) | 50 fps |
 | 10 | 2021世界桌球錦標賽-成年男子組, 梁靖崑 VS Hugo Calderano | Tj7hSZvhqW | [YouTube](https://www.youtube.com/watch?v=DA0XOjF4s_c) | 50 fps |
-| 11 | 2021東京奧運-成年女子組, 陳夢 VS 孫穎莎 | e5q7z8F9PY | [YouTube](https://www.youtube.com/watch?v=owyxigS8Vco) | 25 fps | (這場是vertical)
 | 12 | 2022WTT冠軍賽布達佩斯站-成年女子組, 孫穎莎 VS 付玉 | Bddr8bz4eH | [YouTube](https://www.youtube.com/watch?v=Zwhjy6oEfnI) | 25 fps |
 | 13 | 2021東京奧運-成年男子組, 馬龍 VS 樊振東 | 9Lp3xGqGpk | [YouTube](https://www.youtube.com/watch?v=VTCDQYYKA9o) | 25 fps |
 | 14 | 2021世界桌球錦標賽-成年男子組, 樊振東 VS Moregardh | 7O6uCFgpq8 | [YouTube](https://www.youtube.com/watch?v=8G3jFJ6AQ4Y) | 25 fps |
@@ -85,3 +84,5 @@ L        動作       反        反拉           164          19       16
 | 25 | 2022世界桌球團體錦標賽-成年男子組, 王楚欽 VS 張本智和 | eXZe1cgNmk | [YouTube](https://www.youtube.com/watch?v=BGBp3eUYdc4) | 30 fps |
 | 26 | 2022Singapore Smash-成年男子組, 馬龍 VS 王楚欽 | Lu9I2SrfHe | [YouTube](https://www.youtube.com/watch?v=asj-b47Bc-c) | 25 fps |
 | 27 | 2022WTT Cup Finals XinXiang-成年女子組, 王曼昱 VS 陳夢 | aNgTF2Dol5 | [YouTube](https://www.youtube.com/watch?v=6dgbQQMChCg) | 30 fps |
+## Not in our Dataset
+| 11 | 2021東京奧運-成年女子組, 陳夢 VS 孫穎莎 | e5q7z8F9PY | [YouTube](https://www.youtube.com/watch?v=owyxigS8Vco) | 25 fps | (這場是vertical)
