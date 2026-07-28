@@ -18,6 +18,15 @@ The structure of each annotation entry contains the following root keys:
 * `labels`: A list of detailed attribute key-value pairs (`name`, `type`, `value`) describing the event:
     * **For Serves (`發球`):** Includes `正反手` (拍面).
     * **For Strokes/Actions (`動作`):** Includes `擊球拍面` (拍面), `動作` (動作, e.g., 拉(下旋), 撥球(挑球)/擰拉, 反拉).
+ 
+## Data Alignment & Preprocessing (`YT_json`)
+
+To facilitate direct model training and inference on downloaded YouTube videos, we provide both raw and adjusted frame-aligned annotations:
+
+* **Raw Annotations (`labeled_json/`):** Contains the original human-annotated stroke timestamps based on the native broadcast acquisition frame rates.
+* **YouTube-Aligned Annotations (`YT_json/`):** To resolve frame rate discrepancies caused by video downloading platforms, all annotations in this directory have been frame-synchronized to match standard YouTube video playback frame rates (typically **30 fps** or **50 fps**). 
+
+> **Note:** When evaluating models using video files downloaded directly via `yt-dlp` or similar tools, please use the annotations under `YT_json/` for precise frame-level temporal alignment.
 
 ## Dataset Examples & Label Format
 
@@ -85,5 +94,4 @@ If you find this dataset or codebase useful in your research, please consider ci
   pages={1--24},
   year={2025},
   publisher={ACM New York, NY}
-}
 }
