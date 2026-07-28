@@ -8,6 +8,31 @@ This dataset is an official extension of the **MISTT Dataset** originally introd
 ### Dataset Description
 
 This repository provides an extended video database built upon the foundations of the MISTT project. It incorporates a wider variety of world-class table tennis matches (including WTT Smashes, ITTF World Championships, and the Tokyo Olympics).
+
+### Detailed Stroke Category
+
+Below is the detailed taxonomy of table tennis strokes annotated in this dataset, categorized by **Forehand (正手)** and **Backhand (反手)** actions along with their corresponding English technical terms:
+
+| Category | Stroke Type (中文) | English Technical Term |
+| :--- | :--- | :--- |
+| **Forehand (正)** | 擺短 / 劈長 | Drop shot / Long push |
+| | 晃 | Sidespin counter |
+| | 撥球 (挑球) | Flick |
+| | 拉上旋 / 反拉 / 對拉 | Spin / Counterdrive / Counterloop |
+| | 拉下旋 | Loop |
+| | 放高球 | Lob |
+| | 攻 / 擋 / 快帶 / 殺球 | Attack / Block / Fast drive / Slam |
+| | 發球 | Serve |
+| | 其他 | Other |
+| **Backhand (反)** | 擺短 / 劈長 | Drop shot / Long push |
+| | 撇 | Sidespin counter |
+| | 擰拉 | Chiquita |
+| | 拉上旋 / 反拉 / 對拉 | Spin / Counterdrive / Counterloop |
+| | 拉下旋 | Loop |
+| | 放高球 | Lob |
+| | 攻 / 擋 / 反撕 / 彈 (殺球) | Attack / Block / Fast loop / Slam |
+| | 發球 | Serve |
+| | 其他 | Other |
  
 ## Data Alignment & Preprocessing (`YT_json`)
 
