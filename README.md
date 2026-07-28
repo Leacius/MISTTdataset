@@ -81,3 +81,4 @@ L        動作       反        反拉           164          19       16
 | 21 | 2022世界桌球團體錦標賽-成年男子組, 王楚欽 VS 張本智和 | eXZe1cgNmk | [YouTube](https://www.youtube.com/watch?v=BGBp3eUYdc4) | 30 fps |
 | 22 | 2022Singapore Smash-成年男子組, 馬龍 VS 王楚欽 | Lu9I2SrfHe | [YouTube](https://www.youtube.com/watch?v=asj-b47Bc-c) | 25 fps |
 | 23 | 2022WTT Cup Finals XinXiang-成年女子組, 王曼昱 VS 陳夢 | aNgTF2Dol5 | [YouTube](https://www.youtube.com/watch?v=6dgbQQMChCg) | 30 fps |
+| 24 | 2022WTT冠軍賽布達佩斯站-成年男子組, 張本智和 VS 林高遠 | ijzGS7HBBS | [YouTube](https://www.youtube.com/watch?v=6dgbQQMChCg) | 30 fps |
