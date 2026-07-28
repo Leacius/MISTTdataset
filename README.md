@@ -82,7 +82,7 @@ L        動作       反        反拉           164          19       16
 
 ## Citation
 
-If you find this dataset or codebase useful in your research, please consider citing the original paper and this dataset extension:
+If you find this dataset or codebase useful in your research, please consider citing the original paper and this dataset extension 😎:
 
 ```bibtex
 @article{chang2025fine,
