@@ -24,9 +24,9 @@ The structure of each annotation entry contains the following root keys:
 To facilitate direct model training and inference on downloaded YouTube videos, we provide both raw and adjusted frame-aligned annotations:
 
 * **Raw Annotations (`labeled_json/`):** Contains the original human-annotated stroke timestamps based on the native broadcast acquisition frame rates.
-* **YouTube-Aligned Annotations (`YT_json/`):** To resolve frame rate discrepancies caused by video downloading platforms, all annotations in this directory have been frame-synchronized to match standard YouTube video playback frame rates (typically **30 fps** or **50 fps**). 
+* **YouTube-Aligned Annotations (`YT_json/`):** To resolve frame rate discrepancies caused by video downloaders, all annotations in this directory have been converted and frame-aligned to match standard YouTube playback frame rates (typically **30 fps** or **50 fps**). 
 
-> **Note:** When evaluating models using video files downloaded directly via `yt-dlp` or similar tools, please use the annotations under `YT_json/` for precise frame-level temporal alignment.
+> **Note:** Due to frame-rate conversion and rounding, there may be a minor boundary offset of a few frames compared to the raw video.
 
 ## Dataset Examples & Label Format
 
