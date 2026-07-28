@@ -19,21 +19,6 @@ The structure of each annotation entry contains the following root keys:
     * **For Serves (`發球`):** Includes `正反手` (拍面).
     * **For Strokes/Actions (`動作`):** Includes `擊球拍面` (拍面), `動作` (動作, e.g., 拉(下旋), 撥球(挑球)/擰拉, 反拉).
 
-## Dataset Format & Specification
-
-This repository provides automated stroke and rally annotations for table tennis videos. The tracking and recognition logs are structured as sequential action events.
-
-### Action Type Mapping Reference (動作術語中英對照)
-
-To facilitate cross-domain research, the table tennis technical terms used in `ActionType` correspond to the following international standards:
-* **發球 (Serve)**: Service phase.
-* **撥球/挑球/擰拉 (Flick/Chiquita)**: Active over-the-table backhand/forehand wrist flicks.
-* **拉(上旋) (Spin)**: Offensive topspin drive against various spins.
-* **反拉 (Conterdrive)**: Loop-to-loop rallies from mid-to-far distance.
-* **攻 (Attack)**: Smash or fast active drive.
-
----
-
 ## Dataset Examples & Label Format
 
 To help researchers quickly understand our data structure, below is a real snippet from our annotation label files (e.g., `{match}_data.txt`). 
