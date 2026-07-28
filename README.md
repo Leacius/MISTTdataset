@@ -34,7 +34,7 @@ Below is the detailed taxonomy of table tennis strokes annotated in this dataset
 | | 發球 | Serve |
 | | 其他 | Other |
 
-```
+```python
 ACTION_NAMES_28C = {
     # Forehand (正手)
     0: "正-擺短",        # Forehand - Drop shot
