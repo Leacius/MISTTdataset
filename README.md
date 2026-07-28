@@ -33,6 +33,42 @@ Below is the detailed taxonomy of table tennis strokes annotated in this dataset
 | | 攻 / 擋 / 反撕 / 彈 (殺球) | Attack / Block / Fast loop / Slam |
 | | 發球 | Serve |
 | | 其他 | Other |
+
+```
+ACTION_NAMES_28C = {
+    # Forehand (正手)
+    0: "正-擺短",        # Forehand - Drop shot
+    1: "正-劈長",        # Forehand - Long push
+    2: "正-晃/撇",       # Forehand - Sidespin counter
+    3: "正-撥球/擰拉",   # Forehand - Flick
+    4: "正-拉(下)",      # Forehand - Loop
+    5: "正-拉(上)",      # Forehand - Spin
+    6: "正-攻",          # Forehand - Attack
+    7: "正-擋",          # Forehand - Block
+    8: "正-快帶/反撕",   # Forehand - Fast drive
+    9: "正-反拉",        # Forehand - Counterdrive
+    10: "正-對拉",       # Forehand - Counterloop
+    11: "正-放高球",     # Forehand - Lob
+    12: "正-殺球",       # Forehand - Slam
+    13: "正-發球",       # Forehand - Serves
+    
+    # Backhand (反手)
+    14: "反-擺短",       # Backhand - Drop shot
+    15: "反-劈長",       # Backhand - Long push
+    16: "反-晃/撇",      # Backhand - Sidespin counter
+    17: "反-撥球/擰拉",  # Backhand - Chiquita
+    18: "反-拉(下)",     # Backhand - Loop
+    19: "反-拉(上)",     # Backhand - Spin
+    20: "反-攻",         # Backhand - Attack
+    21: "反-擋",         # Backhand - Block
+    22: "反-快帶/反撕",  # Backhand - Fast loop
+    23: "反-反拉",       # Backhand - Counterdrive
+    24: "反-對拉",       # Backhand - Counterloop
+    25: "反-放高球",     # Backhand - Lob
+    26: "反-殺球",       # Backhand - Slam
+    27: "反-發球",       # Backhand - Serves
+}
+```
  
 ## Data Alignment & Preprocessing (`YT_json`)
 
