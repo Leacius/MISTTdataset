@@ -8,16 +8,6 @@ This dataset is an official extension of the **MISTT Dataset** originally introd
 ### Dataset Description
 
 This repository provides an extended video database built upon the foundations of the MISTT project. It incorporates a wider variety of world-class table tennis matches (including WTT Smashes, ITTF World Championships, and the Tokyo Olympics).
-
-The structure of each annotation entry contains the following root keys:
-
-* `index`: The sequential identification number of the annotation entry (starting from `0`).
-* `eventType`: The category of the annotated event (`發球`, `動作`).
-* `startFrame`: The exact starting frame of the event, synchronized according to the specific **Annotation FPS** of the video.
-* `duration`: The total number of frames the event lasts.
-* `labels`: A list of detailed attribute key-value pairs (`name`, `type`, `value`) describing the event:
-    * **For Serves (`發球`):** Includes `正反手` (拍面).
-    * **For Strokes/Actions (`動作`):** Includes `擊球拍面` (拍面), `動作` (動作, e.g., 拉(下旋), 撥球(挑球)/擰拉, 反拉).
  
 ## Data Alignment & Preprocessing (`YT_json`)
 
@@ -27,6 +17,7 @@ To facilitate direct model training and inference on downloaded YouTube videos, 
 * **YouTube-Aligned Annotations (`YT_json/`):** To resolve frame rate discrepancies caused by video downloaders, all annotations in this directory have been converted and frame-aligned to match standard YouTube playback frame rates (typically **30 fps** or **50 fps**). 
 
 > **Note:** Due to frame-rate conversion and rounding, there may be a minor boundary offset of a few frames compared to the raw video.
+> **Note:** We provide scripts to label player positions (left vs. right), which are available for use if required.
 
 ## Dataset Examples & Label Format
 
