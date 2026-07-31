@@ -7,7 +7,7 @@ This dataset is an official extension of the **MISTT Dataset** originally introd
 
 ### Dataset Description
 
-This repository provides an extended video database built upon the foundations of the MISTT project. It incorporates a wider variety of world-class table tennis matches (including WTT Smashes, ITTF World Championships, and the Tokyo Olympics).
+This repository provides an extended video database built upon the foundations of the MISTT project. It incorporates a total of 24 world-class table tennis matches (including WTT Smashes, ITTF World Championships, and the Tokyo Olympics).
 
 ### Detailed Stroke Category
 
