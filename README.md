@@ -1,6 +1,6 @@
 # Table Tennis Match Video Dataset
 
-This dataset is an official extension of the **MISTT Dataset** originally introduced in the paper:  
+This dataset is an official version 2 of the **MISTT Dataset** originally introduced in the paper:  
 **[Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT](https://dl.acm.org/doi/10.1145/3769299)** (ACM TOMM 2024).
 
 ---
@@ -126,7 +126,7 @@ L        動作       反        反拉           164          19       16
 
 ## Citation
 
-If you find this dataset useful in your research, please consider citing the original paper and this dataset extension 😎:
+If you find this dataset useful in your research, please consider citing the original paper and this v2 dataset 😎:
 
 ```bibtex
 @article{chang2025fine,
