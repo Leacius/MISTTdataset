@@ -68,7 +68,7 @@ To facilitate direct model training and inference on downloaded YouTube videos, 
 * **Raw Annotations (`labeled_json/`):** Contains the original human-annotated stroke timestamps based on the native broadcast acquisition frame rates.
 * **YouTube-Aligned Annotations (`YT_json/`):** To resolve frame rate discrepancies caused by video downloaders, all annotations in this directory have been converted and frame-aligned to match standard YouTube playback frame rates. 
 
-> **Note:** Due to frame-rate conversion and rounding, there may be a minor boundary offset of a few frames compared to the raw video.
+> **Note:** Due to conversion and rounding, there may be a minor boundary offset of a few frames compared to the raw video.
 
 > **Note:** We provide scripts to label player positions (left vs. right), which are available for use if required.
 
