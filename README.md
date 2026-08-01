@@ -7,7 +7,7 @@ This dataset is an official extension of the **MISTT Dataset** originally introd
 
 ### Dataset Description
 
-This repository provides an extended video database built upon the foundations of the MISTT project. It incorporates a total of 24 world-class table tennis matches (including WTT Smashes, ITTF World Championships, and the Tokyo Olympics).
+This repository provides a **version 2** video database built upon the foundations of the MISTT project. It incorporates a total of 24 world-class table tennis matches (including WTT Smashes, ITTF World Championships, and the Tokyo Olympics).
 
 ### Detailed Stroke Category
 
@@ -94,7 +94,7 @@ L        動作       反        反拉           164          19       16
 
 ## Table Tennis Match Video
 
-| Index | Match | Video ID | YouTube Link | Annotation FPS | Transfer FPS |
+| Index | Match | Video ID | YouTube Link | Annotation FPS | Convert FPS |
 | :---: | :--- | :---: | :--- | :---: | :---: |
 | 1 | 2022WTT Smash-成年男子組, 馬龍 VS 林昀儒 | CmbwzmO6PX | [YouTube](https://www.youtube.com/watch?v=jj28xXUKajI) | 25 fps | 50 fps |
 | 2 | 2022WTT Star Contender Doha-成年男子組, 林昀儒 VS 林鐘勳 | odugj313m2 | [YouTube](https://www.youtube.com/watch?v=utpCnlKdI5E) | 25 fps | 25 fps |
