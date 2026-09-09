@@ -1,7 +1,7 @@
 # Table Tennis Match Video Dataset
 
 This dataset is an official version 2 of the **MISTT Dataset** originally introduced in the paper:  
-**[Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT](https://dl.acm.org/doi/10.1145/3769299)** (ACM TOMM 2024).
+**[Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT](https://dl.acm.org/doi/10.1145/3769299)** (ACM TOMM 2025).
 
 ---
 
